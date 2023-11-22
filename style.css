@@ -182,16 +182,26 @@ img {
 .product1 {
     display: flex;
     margin-left: 201px;
+    border-radius: 22px;
+    background-color:gainsboro;
+    padding-right: 4%;
+
 }
 .product2 {
     display: flex;
     margin-left: 70px;
+    border-radius: 22px;
+    background-color:gainsboro;
+    padding-right: 4%;
     
 }
 .product3 {
     display: flex;
     margin-left: 100px;
     margin-right: 80%;
+    border-radius: 22px;
+    background-color: gainsboro;
+    padding-right: 4%;
 
     
 }
@@ -229,14 +239,27 @@ img {
     margin-top: -1.5%;
 }
 .section2 {
+    margin: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 390px auto 370px;
+    column-gap: 30px;
+    
+    
 }
-.section2 img {
+.container {
+    background-color:gainsboro;
+    display: flex;
+    margin: 2%;
+}
+ .section2 img {
     width: 250px;
     height: 280.032px;
     flex-shrink: 0;
+    display: block;
+    padding-bottom: 30px;
+    
 }
+
 del {
     display: inline-block;
     
@@ -258,41 +281,33 @@ del {
     margin-top: -5%;
     margin-left: -3%;
 }
-.cart {
+
+/* .cart {
     display: grid;
     
 }
  .shop {
     display: flex;
-    /* background-color: black; */
+    
+ } */
 
+.icon1 {
+    position: relative;
+}
+ .icon1 .material-icons {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 13px;
  }
- /* .cart #icon {
-    background-color: blue; 
-    width: 30px;
-    padding-left: 7px;
-    padding-right: -7px;
-    padding-top: 2px;
-    height: 27px;
-    flex-shrink: 0;
-    margin-top: 70px;
-    color: white;
-    border-radius: 200px;
- }
- .cart #Material {
-    width: 27px;
-    height: 27px;
-    flex-shrink: 0;
-    background-color: red;
-    margin-top: -130px;
-    color: white; */
-
- 
  #ellipse {
     width: 35px;
     height: 35px;
     flex-shrink: 0;
+    position: relative;
  }
+
+
+
  .end button {
     background-color:#3858D6;
     width: 140px;
@@ -303,46 +318,28 @@ del {
  }
  .end {
     align-items: center;
-    margin-left: 550px;
-    margin-right: -550px;
+    margin-left: 500px;
+    /* margin-right: -50px; */
     margin-top: 10%;
     margin-bottom: 10%;
     box-shadow: none;
  }
  .about h5 {
-    margin-top: 40%;
-    margin-left: 20%;
+    margin-top: 30%;
+    margin-left: 15%;
     color:#3858D6;
  }
  .about h2 {
-    margin-left: 15%;
+    margin-left: 8%;
  }
- /* .clients {
-     display: flex; 
-    margin-top: 50%;
-    display: flexbox   
- }
- .clients .oma {
-    margin-left: -100%; 
-    align-items: right;
-    margin-left: -800px;
-
- }
- .clients .kel {
-    margin-right: 60px;
-    margin-top: -3%;
- }
-
- .clients .text {
-    color: #1E1D1D;
- } */
+ 
  .client {
     display:flex;
     margin-top: 50%;
     
  }
  .client .oma {
-    margin-left: -100%;
+    margin-left: -600px;
  } 
  .client .kel {
     margin: 20%;
@@ -358,4 +355,83 @@ del {
  .suscribe {
     display: flex;
     margin-right:70%;
+    
  }
+ .client .star {
+    
+    margin-left: 15%;
+ }
+ 
+ .dot #dot {
+    height: 10px;
+    width: 105px;
+    align-items: center;
+    margin-left: 44%;
+    display: flex;
+    margin-top: -40px;
+ }
+ .footer img {
+    width: 272px;
+    height: 290px;
+    flex-shrink: 0; 
+    margin-top: 5%;
+    /* margin-left: 50%; */
+    
+ }
+ .footer {
+    display: flex;
+    margin-right: 100px;
+    background-color: gainsboro;
+    margin-left: 100px;
+    margin-top: 90px;
+    /* padding-left: 90px;
+    padding-top: -800px; */
+    padding:2%;
+    
+ }
+ 
+ .form {
+    margin-top: 15%;
+    margin-left: 15%;
+    color: #1E1D1D;
+    
+ }
+ .form h2 {
+    color: #1E1D1D;
+    font-size:xx-large;
+ }
+ .form h6 {
+    color: #8B8E99;
+    font-size: large;
+    
+ }
+ .form button {
+    background-color: #3858D6;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.5%;
+    width:150px;
+    height: 35px;
+    
+ }
+ .form .input {
+    border-style: groove;
+    border-radius: 5px;
+    
+
+ }
+
+ footer {
+    background-color: black;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #FFF;
+ }
+ 
